@@ -1,0 +1,20 @@
+*, :root, body {
+    padding: 0;
+    margin: 0;
+    background-color:#8487eb;
+    height: 100%;
+}
+
+object {
+    outline: none;
+    width: 100%;
+}
+object:focus {
+    outline: none;
+  }
+
+.clock-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
